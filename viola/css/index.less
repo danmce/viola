@@ -1,0 +1,30 @@
+﻿@color-brand: #7119ff;
+@color-dark: #364ab2;
+@color-default: #fff;
+
+@font-face{
+ font-family: 'Oxygen';
+ src: url(fonts/Oxygen-Light.ttf);  
+}
+
+body {
+    font-size: 12px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.bar {
+    &.bar-stable {
+        background-color: @color-brand;
+
+        .title,
+        .button {
+            color: @color-default;
+        }
+
+    }
+}
+
+.tabs-positive > .tabs, .tabs.tabs-positive {
+    background-color: @color-brand;
+    border-color: @color-brand
+}
