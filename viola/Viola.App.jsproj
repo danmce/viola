@@ -127,6 +127,7 @@
     <Content Include="lib\ionic.min.css" />
     <Content Include="merges\android\scripts\android2.3-jscompat.js" />
     <Content Include="merges\android\scripts\platformOverrides.js" />
+    <Content Include="plugins\.gitignore" />
     <Content Include="plugins\com.microsoft.azure-mobile-services\.fetch.json" />
     <Content Include="plugins\com.microsoft.azure-mobile-services\LICENSE.txt" />
     <Content Include="plugins\com.microsoft.azure-mobile-services\plugin.xml" />
