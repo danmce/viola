@@ -266,6 +266,10 @@
     <Content Include="plugins\org.apache.cordova.geolocation\www\geolocation.js" />
     <Content Include="plugins\org.apache.cordova.geolocation\www\Position.js" />
     <Content Include="plugins\org.apache.cordova.geolocation\www\PositionError.js" />
+    <Content Include="scripts\angular-mocks.js" />
+    <Content Include="scripts\angular.js" />
+    <Content Include="scripts\angular.min.js" />
+    <Content Include="scripts\angular.min.js.map" />
     <Content Include="scripts\build\app.js" />
     <Content Include="scripts\build\app.min.js" />
     <Content Include="scripts\build\app.min.js.map">
@@ -292,8 +296,6 @@
     <Folder Include="res\screens\ios\" />
     <Folder Include="res\screens\windows\" />
     <Folder Include="res\screens\wp8\" />
-    <Folder Include="scripts\Controllers\" />
-    <Folder Include="scripts\Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="config.xml">
@@ -410,6 +412,8 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="scripts\Controllers\FeedController.ts" />
+    <TypeScriptCompile Include="scripts\Models\FeedScope.ts" />
     <TypeScriptCompile Include="scripts\typings\angular-ui\angular-ui-router.d.ts" />
     <TypeScriptCompile Include="scripts\typings\angular-ui\angular-ui-sortable.d.ts" />
     <TypeScriptCompile Include="scripts\typings\angularjs\angular-animate.d.ts" />

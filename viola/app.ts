@@ -41,7 +41,8 @@
             url: '/feed',
             views: {
                 'feed@app.home': {
-                    templateUrl: 'views/feed.html'
+                    templateUrl: 'views/feed.html',
+                    controller: 'FeedController'
                 }
             }
         })
@@ -57,5 +58,5 @@
 
         // if none of the above states are matched, use this as the fallback
         $urlRouterProvider.otherwise('app/home');
-    });
+    }).controller("FeedController", FeedController);
 }
